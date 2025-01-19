@@ -11,7 +11,7 @@ const Home = () => {
     const router = useRouter();
 
     return (
-        <div className="sm:absolute top-0 left-0 md:absolute right-0 bg-gray-950 h-full w-4/5 ml-[300px] overflow-hidden">
+        <div className="absolute top-0 right-0 bg-gray-950 h-full w-4/5 ml-[300px] overflow-hidden">
             <ScrollArea>
                 <div className="mt-10">
                     <h1 className="text-white text-2xl font-extrabold mb-2">Featured Albums</h1>
